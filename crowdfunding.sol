@@ -6,7 +6,7 @@ contract CrowdFunding {
     address public owner; // owner of the contract
     uint256 public minContribution; // minimum contribution required for contributor to do crowd funding.
     uint256 public deadline; // Final Time to do crowdfunding.
-    uint256 public target;
+    uint256 public target; //Total amount to be raised
     uint256 public totalAmount; // Keep track of the total raised amount.
     uint256 public totalContributors; // total contributors who have contributed to crowd funding.
     uint256 public numRequests;
